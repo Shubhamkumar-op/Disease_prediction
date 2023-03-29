@@ -30,28 +30,28 @@ if (selected == 'Diabetes Prediction'):
     col1,col2,col3 = st.columns(3)
     
     with col1:
-        Pregnancies = st.text_input('Number of prehnancies')
+        Pregnancies = st.slider('Number of prehnancies')
     
     with col2:
-        Glucose = st.text_input('Glucose level')
+        Glucose = st.slider('Glucose level')
     
     with col3:
-        BloodPressure = st.text_input('Blood pressure value')
+        BloodPressure = st.slider('Blood pressure value')
     
     with col1:
-        SkinThickness = st.text_input('Skin Thickness value')
+        SkinThickness = st.slider('Skin Thickness value')
     
     with col2:
-        Insulin = st.text_input('Insulin level')
+        Insulin = st.slider('Insulin level')
     
     with col3:
-        BMI = st.text_input('BMI value')
+        BMI = st.slider('BMI value')
     
     with col1:
-        DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
+        DiabetesPedigreeFunction = st.slider('Diabetes Pedigree Function value')
         
     with col2:
-        Age = st.text_input('Age of the Person')
+        Age = st.slider('Age of the Person')
     
     
     # prediction
@@ -77,43 +77,43 @@ if (selected == 'Heart Disease prediction'):
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        age = st.text_input('Age')
+        age = st.slider('Age')
         
     with col2:
-        sex = st.text_input('Sex')
+        sex = st.slider('Sex')
         
     with col3:
-        cp = st.text_input('Chest Pain types')
+        cp = st.slider('Chest Pain types')
         
     with col1:
-        trestbps = st.text_input('Resting Blood Pressure')
+        trestbps = st.slider('Resting Blood Pressure')
         
     with col2:
-        chol = st.text_input('Serum Cholestoral in mg/dl')
+        chol = st.slider('Serum Cholestoral in mg/dl')
         
     with col3:
-        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
+        fbs = st.slider('Fasting Blood Sugar > 120 mg/dl')
         
     with col1:
-        restecg = st.text_input('Resting Electrocardiographic results')
+        restecg = st.slider('Resting Electrocardiographic results')
         
     with col2:
-        thalach = st.text_input('Maximum Heart Rate achieved')
+        thalach = st.slider('Maximum Heart Rate achieved')
         
     with col3:
-        exang = st.text_input('Exercise Induced Angina')
+        exang = st.slider('Exercise Induced Angina')
         
     with col1:
-        oldpeak = st.text_input('ST depression induced by exercise')
+        oldpeak = st.slider('ST depression induced by exercise')
         
     with col2:
-        slope = st.text_input('Slope of the peak exercise ST segment')
+        slope = st.slider('Slope of the peak exercise ST segment')
         
     with col3:
-        ca = st.text_input('Major vessels colored by flourosopy')
+        ca = st.slider('Major vessels colored by flourosopy')
         
     with col1:
-        thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
+        thal = st.slider('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
         
         
     heart_diagnosis = ''
